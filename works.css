@@ -1,0 +1,103 @@
+
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+body{
+    background-color: #f0eeee;
+    width: fit-content;
+    height: 180vh;
+}
+#nav{
+    margin-top: 30px;
+    margin-left: 40%;
+    text-transform: capitalize;  
+}
+
+a{
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #212121;
+}
+a:hover{
+    color: blue;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    margin-left: 35em;
+    margin-top: 7em;
+}
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+    }
+  
+    #box1{
+    width: 24em;
+    height: 26em;
+    background-color: #fff;
+   margin-top: -4em;
+   margin-left: 8em;
+   border-radius: 2em;
+ }
+ #box2{
+    width: 22em;
+    height: 27em;
+    background-color: #fff;
+   margin-top: 2em;
+   margin-left: 1em;
+   border-radius: 2em;
+ }
+
+  #box3{
+    width: 22em;
+    height: 27em;
+    background-color: #fff;
+   margin-top: 2em;
+   margin-left: 1.5em;
+   border-radius: 2em;
+ }
+
+    #box4{
+    width: 24em;
+    height: 32em;
+    background-color: #fff;
+   margin-top: -5.8em;
+   margin-left: 8em;
+   border-radius: 2em;
+ }
+
+   #box5{
+    width: 22em;
+    height: 25em;
+    background-color: #fff;
+   margin-top: 1.2em;
+   margin-left: 1em;
+   border-radius: 2em;
+ }
+
+  #box6{
+    width: 22em;
+    height: 25em;
+    background-color: #fff;
+   margin-top: 1.2em;
+   margin-left: 1em;
+   border-radius: 2em;
+ }
+
+
+h4{
+    color: rgb(138, 133, 133);
+    font-weight: 100;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+p{
+    margin-left: 7%; 
+    font-size: 25px;
+}
